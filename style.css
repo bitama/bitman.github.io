@@ -1,0 +1,235 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 500px;
+    background-color:white;
+    border: solid black 1px;
+}
+.hero{
+    background-color:#DADBFB;
+    height: 100vh;
+    color: black;
+    font-size: 40px;
+}
+footer{
+    height: 500px;
+   
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content:space-around;
+    font-size: 30px;
+    
+}
+p{
+    margin: 0;
+    font-weight: 100px;
+}
+h1{ 
+    font-size: 90px;
+    margin: 0;
+}
+li{
+    text-decoration:none ;
+    color:aliceblue
+}
+li:hover{
+    color:maroon;
+}
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+.button{
+  width: 250px;
+  height: 70px;
+  border-radius:30px;
+  background-color:teal;
+  text-align:center;
+}
+.logo{
+  margin:2px;
+  fill: #fbdaf2;
+}
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+.button:hover{
+    background-color: darkorange;
+
+}
+.button:active{
+background-color:#873e23 ; 
+}
+
+.socials{
+    color: white;
+    margin-bottom: 100px;
+}
+.social{
+    display: block;
+    margin-bottom: 20px;
+}
+a{
+    margin: 35px;
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.subsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+    background:#584646;
+    height: 500px;
+    color:white;
+    font-size: 150%;
+    align-items: center;
+    margin-top: auto;
+    
+
+   
+    
+   
+}
+h2{
+    font-size: 100px;
+    color: black;
+    
+
+}
+.certs{
+    color:black;
+    text-decoration: none;
+    color: aliceblue;
+}
+.cert{
+    margin-top: 22px;
+    
+
+}
+.nav-bar{
+    color: blue;
+    border: none;
+}
+.certs:hover{
+    color:maroon;
+}
+img{
+    border-radius:200px;
+    margin: 80px;
+    
+}
+#a{
+    text-decoration-line: none;
+    color:black;
+}
+.projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     height: 100px;
+}
+.projects-cards{
+    margin-top: 100px;
+
+    width: 400px;
+    height: 200px;
+    border:1px solid black;
+    background-color: lightgrey;
+   
+   
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    
+}
+.project-title{
+    margin: 30px;
+    color: maroon;
+}
+h3{
+    color: rgb(142, 142, 217);
+}
+.projects-links{
+    text-decoration:none;
+    align-items: center;
+    margin: 30px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #1704aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a04595;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 50px;
+    width: 300px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+h4{
+    color:maroon
+}
+.contact-me{
+    color: midnightblue;
+}
+.contact-me-form{
+    margin: 100px;
+}
+
+
